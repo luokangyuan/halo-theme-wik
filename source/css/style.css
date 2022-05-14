@@ -1,1 +1,23 @@
-style.css
+/* body{
+    background: #fef6e4;
+} */
+.fd-head-color {
+    color: #001858;
+}
+.fd-head-main-color {
+    color: #001858 !important;
+}
+.fd-p-color{
+    color: #172c66;
+}
+.fd-botton{
+    background-color: #f582ae;
+    color: #001858;
+}
+.fd-main-bg{
+    background: #fef6e4;
+}
+.fd-main-border{
+    border: 4px solid #001858;
+    border-radius: 4px;
+}

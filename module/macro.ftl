@@ -5,26 +5,45 @@
     <meta charset="UTF-8">
     <meta name="keywords" content="${meta_keywords!}"/>
     <meta name="description" content="${meta_description!}" />
-
-    <#--
-        公共 head 代码，详情请参考：https://docs.halo.run/zh/developer-guide/theme/public-template-tag
-        包含：Favicon，自定义 head 等
-    -->
+    
+    <link rel="stylesheet" href="${theme_base!}/source/plugins/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="${theme_base!}/source/plugins/materialize/css/materialize.min.css" media="screen,projection">
+    <link rel="stylesheet" href="${theme_base!}/source/plugins/font/iconfont.css">
+    <link href="${theme_base!}/source/plugins/aos/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="${theme_base!}/source/css/menu.css">
+    <link rel="stylesheet" href="${theme_base!}/source/css/photo.css">
+    <link rel="stylesheet" href="${theme_base!}/source/css/carousel.css">
+    <link rel="stylesheet" href="${theme_base!}/source/css/style.css">
 
     <@global.head />
 
     <title>${title}</title>
 </head>
 <body>
-<#include "menu.ftl">
-
-<#nested >
-
-<#--
-    公共底部代码，详情请参考：https://docs.halo.run/zh/developer-guide/theme/public-template-tag
-    包含：统计代码，底部信息
--->
-<@global.footer />
+    <div class="container-full">
+         <#include "menu.ftl">
+         <#nested >
+         <@global.footer />
+      </div>
+    
+<script type="text/javascript" src="${theme_base!}/source/plugins/jquery-3.5.1/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="${theme_base!}/source/plugins/aos/aos.js"></script>
+<script type="text/javascript" src="${theme_base!}/source/plugins/font/iconfont.js">
+<script type="text/javascript" src="${theme_base!}/source/plugins/materialize/js/materialize.min.js"></script>
+<script>
+  AOS.init();
+$(document).ready(function () {
+    $(window).on('scroll', function () {
+        var t = $(window).scrollTop();
+        if (t > 10) {
+            $("body").addClass("fd-main-bg");
+        } else {
+            $("body").removeClass("fd-main-bg");
+        }
+    })
+});
+</script>
 </body>
 </html>
 </#macro>

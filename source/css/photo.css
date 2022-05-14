@@ -1,0 +1,125 @@
+.fd-image-box h2{
+    color: #001858;
+    font-size: 3rem;
+    line-height: 1.3;
+    font-weight: 700;
+    margin: 0;
+    margin-left: 10px;
+}
+.fd-title p{
+    color: #172c66;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.fd-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    flex-direction: column;
+}
+.fd-image-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+}
+.fd-image-box img{
+    height: 50px;
+    object-fit: cover;
+
+}
+.fd-card{
+    position: relative;
+    width: 100%;
+    height: 280px;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    flex-shrink: 0;
+    margin-bottom: 20px;
+    
+}
+.fd-card:hover{
+    cursor: pointer;
+}
+.fd-card .fd-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* 默认大图显示*/
+.fd-card .fd-image{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 0%;
+    overflow: hidden;
+    transition: 0.5s;
+}
+/* 鼠标移入变小图 */
+.fd-card:hover .fd-image{
+    top: 0;
+    width: 100%;
+    height: 220px;
+}
+/* 标题增加黑色渐变背景 */
+.fd-card .fd-image::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom,transparent 90%, #222);
+}
+.fd-card h3{
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    transition: 0.5s;
+    color: #fff;
+    font-size: 1.8rem;
+    line-height: 1.3;
+    font-weight: 700;
+}
+.fd-card-bottom{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.fd-card-bottom h4{
+    position: absolute;
+    top: 410px;
+    left: 20px;
+    transition: 0.5s;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.fd-card-bottom .fd-card-time{
+    position: absolute;
+    top: 410px;
+    left: calc(100% - 100px);
+    transition: 0.5s;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.fd-card:hover h3{
+    top: 140px;
+    transition: 0.5s;
+}
+.fd-card:hover .fd-card-bottom h4{
+    top: 220px;
+    transition: 0.5s;
+}
+.fd-card:hover .fd-card-bottom .fd-card-time{
+    top: 220px;
+    left: calc(100% - 100px);
+    transition: 0.5s;
+}

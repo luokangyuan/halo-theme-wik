@@ -1,8 +1,8 @@
 # 配置详情请参考：https://docs.halo.run/zh/developer-guide/theme/config-files
-id: halo_quickstarter
-name: QuickStarter
+id: halo-theme-wik
+name: halo-theme-wik
 author:
-  name: halo-dev
+  name: luokangyuan
   website: https://halo.run
 description: Quick starter theme for halo
 logo: https://avatars.githubusercontent.com/u/48195280?s=200&v=4

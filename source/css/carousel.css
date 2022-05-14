@@ -1,0 +1,107 @@
+.carousel.carousel-slider .carousel-item{
+    height: calc(100vh - 0px) !important;
+}
+
+.fd-carouse img{
+    width: 100%;
+    height: calc(100vh - 0px) !important;
+    object-fit: cover;
+}
+.fd-carouse {
+    display: flex;
+    justify-content: center;
+  
+}
+
+.carousel.carousel-slider .carousel-item {
+    background-blend-mode: multiply;
+}
+.carousel.carousel-slider .carousel-item::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .6);
+    z-index: 100;
+}
+.carousel.carousel-slider .carousel-item h2{
+    position: absolute;
+    font-size: 3rem;
+    line-height: 1.3;
+    font-weight: 700;
+    top:  calc(50vh - 120px) !important;
+    z-index: 4000;
+    color: #fff;
+}
+.fd-carouse p{
+    position: absolute;
+    font-size: 2rem;
+    line-height: 1.3;
+    font-weight: 400;
+    top:  calc(50vh - 30px) !important;
+    z-index: 4000;
+}
+.fd-carouse a{
+    position: absolute;
+    padding: 10px 20px;
+    top:  calc(50vh + 30px) !important;
+    border-radius: 10px;
+    z-index: 4000;
+}
+.fd-carouse a:hover{
+    cursor: pointer;
+}
+.fd-chevron {
+    animation: pulse 2s infinite;
+    color: #FF4081;
+    font-size: 20px;
+}
+.fd-contact-box{
+    width: 560px;
+    height: 50px;
+    position: absolute;
+    top:  calc(50vh + 20px) !important;
+    display: flex;
+    justify-content: space-between;
+}
+.fd-contact-box a{
+    position: relative;
+    top: 0 !important;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.fd-contact-box a i{
+    font-size: 26px;
+    color: #001858;
+}
+.fd-contact-box div{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4000;
+    background: rgba( 255, 255, 255, 0.5 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 20px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+@keyframes pulse {
+    0%{
+        transform: translate(0, 0);
+    }
+    50%{
+        transform: translate(0, 10px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+ }
+    

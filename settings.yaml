@@ -2,8 +2,45 @@
 genernal:
   label: 基本设置
   items:
+    index_title:
+      name: index_title
+      label: 首页标题
+      type: textarea
+      default: '青松'
     index_notice:
       name: index_notice
-      label: 首页公告
+      label: 首页标题
       type: textarea
-      default: '欢迎来到我的博客'
+      default: '努力做有价值的技术文章'
+    travle_title:
+      name: travle_title           
+      label: 旅行
+      type: text 
+      default: '生活太匆碌，美景无心顾，来一场不一样的旅行吧。迎接你的或许是阳光温暖，清风徐徐，也不一定，感受才是灵魂的语言，文字只是表达感受的标点和符号'
+social:
+  label: 社交网络
+  items:
+    github:
+      name: github
+      label: Github
+      type: text
+      placeholder: "GitHub"
+      description: "GitHub 主页链接"
+    mail:
+      name: mail
+      label: 邮箱
+      type: text
+      placeholder: "邮箱"
+      description: "邮箱地址"
+    zhihu:
+      name: zhihu
+      label: 知乎
+      type: text
+      placeholder: "知乎"
+      description: "知乎个人主页地址" 
+    weibo:
+      name: weibo
+      label: 微博
+      type: text
+      placeholder: "微博"
+      description: "微博个人主页地址"

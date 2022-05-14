@@ -1,0 +1,35 @@
+nav{
+    box-shadow: none;
+    color: #fff;
+    background: transparent ;
+    position: absolute;
+    width: 100%;
+    z-index: 5000;
+}
+nav ul a{
+    color: #fff;
+}
+nav .brand-logo{
+    color: #001858;
+}
+.nav-wrapper{
+    width: 70%;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+nav .brand-logo{
+    display: flex;
+    margin-left: 20px;
+}
+nav .brand-logo .fd-logo-title{
+    font-size: 18px;
+    line-height: 64px;
+    color: #fff;
+    font-weight: 700;
+}
+nav .brand-logo i{
+    color: #fff;
+}
+.fd-nav-bg{
+    background-color: #fef6e4;
+}

@@ -1,5 +1,6 @@
 <#include "module/macro.ftl">
 <@layout title="${blog_title!}">
+    <#include "module/carousel.ftl">
     <h1>公告</h1>
     <p>
         ${settings.index_notice!}
