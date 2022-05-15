@@ -28,7 +28,7 @@
     flex: 1;
     justify-content: center;
     align-items: center;
-    padding: 5px 10px;
+    padding: 4px 10px;
     background-color: #001858;
     height: 100%;
     font-size: 16px;
@@ -41,7 +41,7 @@
     flex: 1;
     justify-content: center;
     align-items: center;
-    padding: 5px 10px;
+    padding: 4px 10px;
     background-color: #f582ae;
     height: 100%;
     border-top-right-radius: 4px;
