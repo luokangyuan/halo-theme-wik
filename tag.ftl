@@ -40,6 +40,6 @@
             </@paginationTag>
         </ul>
     <#else>
-        <span>当前只有一页</span>
+        <span >当前只有一页</span>
     </#if>
 </@layout>

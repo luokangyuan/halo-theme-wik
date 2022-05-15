@@ -1,0 +1,67 @@
+.fd-post-card{
+    height: 395px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-shadow: 0 0 30px rgb(0 0 0 / 50%);
+    background-color: #fef6e4;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.fd-post-card .fd-index-img img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.fd-post-card h2{
+    color: #fff;
+    top: 120px;
+    left: 20px;
+    position: absolute;
+    font-size: 1.8rem;
+    font-weight: 600;
+    z-index: 300;
+    background: transparent;
+}
+.fd-post-card p{
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 15px;
+    line-height: 1.6;
+    font-weight: 400;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: 3;
+   overflow: hidden;
+}
+.fd-view-box{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 2px;
+}
+.fd-view{
+    margin-left: 20px;
+}
+.fd-time{
+    margin-right: 20px;
+}
+.fd-post-tags{
+    width: 100%;
+    border-top: 1px solid #001858;
+    display: flex;
+    align-items: center;
+}
+.fd-post-tags span{
+    padding: 4px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    margin-left: 8px;
+    margin-top: 10px;
+}

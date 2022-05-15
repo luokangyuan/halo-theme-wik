@@ -4,7 +4,7 @@
     <div class="container">
          <div class="row">
             <div class="col s12 m12 fd-title">
-                <div class="fd-image-box fd-main-bg">
+                <div class="fd-image-box">
                     <img data-aos="zoom-out-right" data-aos-easing="linear" data-aos-duration="1500" src="${theme_base!}/source/images/travel.png">
                      <h2 data-aos="zoom-out-left" data-aos-easing="linear" data-aos-duration="1500">travel</h2>
                 </div>

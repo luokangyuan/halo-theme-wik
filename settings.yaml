@@ -25,7 +25,7 @@ social:
       label: Github
       type: text
       placeholder: "GitHub"
-      description: "GitHub 主页链接"
+      description: "https://github.com/luokangyuan"
     mail:
       name: mail
       label: 邮箱

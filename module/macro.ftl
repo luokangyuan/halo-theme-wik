@@ -15,18 +15,21 @@
     <link rel="stylesheet" href="${theme_base!}/source/css/photo.css">
     <link rel="stylesheet" href="${theme_base!}/source/css/carousel.css">
     <link rel="stylesheet" href="${theme_base!}/source/css/style.css">
+    <link rel="stylesheet" href="${theme_base!}/source/css/indexTop.css">
+    <link rel="stylesheet" href="${theme_base!}/source/css/indexPostList.css">
 
     <@global.head />
 
     <title>${title}</title>
 </head>
 <body>
-    <div class="container-full">
-         <#include "menu.ftl">
-         <#nested >
-         <@global.footer />
-      </div>
-    
+<div class="container-full">
+        <#include "menu.ftl">
+        <#nested >
+        <#include "footer.ftl">
+        <@global.footer  />
+</div>
+
 <script type="text/javascript" src="${theme_base!}/source/plugins/jquery-3.5.1/jquery-3.5.1.min.js"></script>
 <script type="text/javascript" src="${theme_base!}/source/plugins/aos/aos.js"></script>
 <script type="text/javascript" src="${theme_base!}/source/plugins/font/iconfont.js">
@@ -36,7 +39,7 @@
 $(document).ready(function () {
     $(window).on('scroll', function () {
         var t = $(window).scrollTop();
-        if (t > 10) {
+        if (t > 2) {
             $("body").addClass("fd-main-bg");
         } else {
             $("body").removeClass("fd-main-bg");

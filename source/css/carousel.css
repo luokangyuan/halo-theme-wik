@@ -78,6 +78,11 @@
 .fd-contact-box a i{
     font-size: 26px;
     color: #001858;
+    animation: indexTransform 2s infinite;
+}
+.fd-contact-box div:hover a i{
+    transition: 0.5s;
+    transform:scale(1.2,1.2)
 }
 .fd-contact-box div{
     width: 40px;
@@ -102,6 +107,18 @@
     }
     100%{
         transform: translate(0, 0);
+    }
+ }
+
+ @keyframes indexTransform {
+    0%{
+        transform: scale(1, 1);
+    }
+    50%{
+        transform: scale(1.2, 1.2);
+    }
+    100%{
+        transform: scale(1, 1);
     }
  }
     
