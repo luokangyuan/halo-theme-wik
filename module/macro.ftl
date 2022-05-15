@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="${theme_base!}/source/plugins/materialize/css/materialize.min.css" media="screen,projection">
     <link rel="stylesheet" href="${theme_base!}/source/plugins/font/iconfont.css">
+   
     <link href="${theme_base!}/source/plugins/aos/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="${theme_base!}/source/css/menu.css">
     <link rel="stylesheet" href="${theme_base!}/source/css/photo.css">
@@ -17,6 +18,8 @@
     <link rel="stylesheet" href="${theme_base!}/source/css/style.css">
     <link rel="stylesheet" href="${theme_base!}/source/css/indexTop.css">
     <link rel="stylesheet" href="${theme_base!}/source/css/indexPostList.css">
+    <link rel="stylesheet" href="${theme_base!}/source/css/postDetail.css">
+     <link rel="stylesheet" href="${theme_base!}/source/plugins/prism/prism.css">
 
     <@global.head />
 
@@ -34,6 +37,7 @@
 <script type="text/javascript" src="${theme_base!}/source/plugins/aos/aos.js"></script>
 <script type="text/javascript" src="${theme_base!}/source/plugins/font/iconfont.js">
 <script type="text/javascript" src="${theme_base!}/source/plugins/materialize/js/materialize.min.js"></script>
+<script type="text/javascript" src="${theme_base!}/source/plugins/prism/prism.js"></script>
 <script>
   AOS.init();
 $(document).ready(function () {

@@ -1,13 +1,22 @@
 .carousel.carousel-slider .carousel-item{
-    height: calc(100vh - 0px) !important;
+    height: calc(100vh - 0px) ;
+}
+.carousel.carousel-slider .fd-post-carousel-item{
+    height: 40vh  ;
+}
+.fd-post-carousel-item img{
+    width: 100%;
+    height: 40vh ;
+    object-fit: cover;
 }
 
 .fd-carouse img{
     width: 100%;
-    height: calc(100vh - 0px) !important;
+    height: calc(100vh - 0px);
     object-fit: cover;
 }
-.fd-carouse {
+
+.fd-carouse,.fd-post-carousel-item  {
     display: flex;
     justify-content: center;
   
@@ -31,7 +40,16 @@
     font-size: 3rem;
     line-height: 1.3;
     font-weight: 700;
-    top:  calc(50vh - 120px) !important;
+    top:  calc(50vh - 120px);
+    z-index: 4000;
+    color: #fff;
+}
+.carousel.carousel-slider .carousel-item.fd-post-carousel-item h2{
+    position: absolute;
+    font-size: 3rem;
+    line-height: 1.3;
+    font-weight: 700;
+    top:  100px;
     z-index: 4000;
     color: #fff;
 }
@@ -40,7 +58,15 @@
     font-size: 2rem;
     line-height: 1.3;
     font-weight: 400;
-    top:  calc(50vh - 30px) !important;
+    top:  calc(50vh - 30px) ;
+    z-index: 4000;
+}
+.fd-post-carousel-item p{
+    position: absolute;
+    font-size: 2rem;
+    line-height: 1.3;
+    font-weight: 400;
+    top:  184px;
     z-index: 4000;
 }
 .fd-carouse a{
