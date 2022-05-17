@@ -49,7 +49,6 @@
     position: relative;
     margin-top: -20px;
     display: flex;
-    justify-content: center;
   
    
 }
@@ -147,9 +146,21 @@ blockquote{
     
 }
 
+.fd-toc-title{
+    width: 100%;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    display: flex;
+    
+
+}
 .fd-toc{
+    margin-top: 45px;
     width: 25%;
     height: 200px;
-    background-color: #e96900;
+    display: flex;
+    flex-direction: column;
+    padding-left: 35px;
 }
 
