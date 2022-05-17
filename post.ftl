@@ -3,7 +3,6 @@
 <@layout title="${post.title!} - ${blog_title!}">
 <#include "module/carousel.ftl">
     <div class="container fd-post-container">
-       
         <div class="fd-post-detail-card">
              <article>
                  <div class="fd-post-detail-tags-cate">
@@ -11,7 +10,7 @@
                         <#if post.tags?size gt 0>
                             <#list post.tags as tag>
                                 <div class="fd-left-right-tag">
-                                     <span class="fd-tag-left"><i class="fa fa-tint"></i></span>
+                                     <span class="fd-tag-left"><i class="fa fa-tint"></i>&nbsp;标签</span>
                                      <span class="fd-tag-right">${tag.name}</span>
                                 </div>
                             </#list>
@@ -21,7 +20,7 @@
                         <#if post.categories?size gt 0>
                             <#list post.categories as categories>
                                 <div class="fd-left-right-tag">
-                                     <span class="fd-tag-left"><i class="fa fa-bookmark"></i></span>
+                                     <span class="fd-tag-left"><i class="fa fa-bookmark"></i>&nbsp;分类</span>
                                      <span class="fd-tag-right">${categories.name}</span>
                                 </div>
                                
@@ -29,7 +28,17 @@
                         </#if>
                     </div>
                 </div>
-                 ${post.formatContent!}
+                <div class="fd-post-info">
+                    <span><i class="fa fa-heart"></i>&nbsp;浏览次数：${post.visits}</span>
+                    <span><i class="fa fa-heart"></i>&nbsp;点赞次数：${post.likes}</span>
+                    <span><i class="fa fa-heart"></i>&nbsp;评论次数：${post.commentCount}</span>
+                    <span><i class="fa fa-heart"></i>&nbsp;发布日期：${post.createTime?string('yyyy-MM-dd')}</span>
+                    <span><i class="fa fa-heart"></i>&nbsp;文章字数：${post.wordCount/1000}k</span>
+                    <span><i class="fa fa-heart"></i>&nbsp;阅读时长：${post.wordCount/350}分钟</span>
+                </div>
+                <div id="fd-content">
+                    ${post.formatContent!}
+                </div>
              </article>  
              <div class="fd-toc">目录</div>
         </div>
