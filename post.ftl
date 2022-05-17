@@ -29,12 +29,12 @@
                     </div>
                 </div>
                 <div class="fd-post-info">
-                    <span><i class="fa fa-heart"></i>&nbsp;浏览次数：${post.visits}</span>
+                    <span><i class="fa fa-eye"></i>&nbsp;浏览次数：${post.visits}</span>
                     <span><i class="fa fa-heart"></i>&nbsp;点赞次数：${post.likes}</span>
-                    <span><i class="fa fa-heart"></i>&nbsp;评论次数：${post.commentCount}</span>
-                    <span><i class="fa fa-heart"></i>&nbsp;发布日期：${post.createTime?string('yyyy-MM-dd')}</span>
-                    <span><i class="fa fa-heart"></i>&nbsp;文章字数：${post.wordCount/1000}k</span>
-                    <span><i class="fa fa-heart"></i>&nbsp;阅读时长：${post.wordCount/350}分钟</span>
+                    <span><i class="fa fa-envelope-square"></i>&nbsp;评论次数：${post.commentCount}</span>
+                    <span><i class="fa fa-calendar-check-o"></i>&nbsp;发布日期：${post.createTime?string('yyyy-MM-dd')}</span>
+                    <span><i class="fa fa-dot-circle-o"></i>&nbsp;文章字数：${post.wordCount/1000}k</span>
+                    <span><i class="fa fa-hourglass-1"></i>&nbsp;阅读时长：${(post.wordCount/350)?string("#.#")}分钟</span>
                 </div>
                 <div id="fd-content">
                     ${post.formatContent!}
@@ -48,3 +48,15 @@
     <#include "module/comment.ftl">
     <@comment post=post type="post" />
 </@layout>
+<script>
+    tocbot.init({
+    // Where to render the table of contents.
+    tocSelector: '.fd-toc',
+    // Where to grab the headings to build the table of contents.
+    contentSelector: '.js-toc-content',
+    // Which headings to grab inside of the contentSelector element.
+    headingSelector: 'h1, h2, h3',
+    // For headings inside relative or absolute positioned containers within content.
+    hasInnerContainers: true,
+    });
+</script>

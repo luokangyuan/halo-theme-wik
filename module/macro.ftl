@@ -38,6 +38,7 @@
 <script type="text/javascript" src="${theme_base!}/source/plugins/font/iconfont.js">
 <script type="text/javascript" src="${theme_base!}/source/plugins/materialize/js/materialize.min.js"></script>
 <script type="text/javascript" src="${theme_base!}/source/plugins/prism/prism.js"></script>
+<script type="text/javascript" src="${theme_base!}/source/plugins/tocbot/tocbot.min.js"></script>
 <script>
   AOS.init();
 $(document).ready(function () {

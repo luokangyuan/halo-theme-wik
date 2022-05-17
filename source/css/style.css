@@ -48,3 +48,22 @@ body{
     padding-top: 0;
     background: linear-gradient(to right, #141e30, #243b55);
 }
+/* 自定义滚动条 */
+/* ::-webkit-scrollbar {
+    width: 4px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: lightcoral;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: lightsteelblue;
+  }
+  ::-webkit-scrollbar-thumb:horizontal {
+    background-color: lightsteelblue;
+  }
+  ::-webkit-scrollbar-track:horizontal {
+    background-color: lightsalmon;
+  }
+  ::-webkit-scrollbar-corner {
+    background-color: lightcoral;
+  } */
