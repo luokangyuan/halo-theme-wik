@@ -162,5 +162,7 @@ blockquote{
     display: flex;
     flex-direction: column;
     padding-left: 35px;
+    position: sticky;
+    top: 80px;
 }
 
