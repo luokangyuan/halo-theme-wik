@@ -152,8 +152,16 @@ blockquote{
     font-weight: bold;
     line-height: 1.8rem;
     display: flex;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    /* justify-content: center; */
     
 
+}
+.fd-toc-content{
+    width: 100%;
+    display: flex;
+  
 }
 .fd-toc{
     margin-top: 45px;
@@ -164,5 +172,25 @@ blockquote{
     padding-left: 35px;
     position: sticky;
     top: 80px;
+}
+.toc-list-item::marker{
+    unicode-bidi: none;
+    font-variant-numeric: none;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+    content: "" !important;
+}
+.node-name--H1{
+    margin: 44px 0 18px -6px;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}
+
+.node-name--H2{
+    margin: 44px 0 18px -6px;
+    font-size: 1rem;
+    line-height: 1.6rem;
 }
 

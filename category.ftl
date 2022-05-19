@@ -1,5 +1,6 @@
 <#include "module/macro.ftl">
 <@layout title="分类：${category.name} - ${blog_title!}">
+<#include "module/carousel.ftl">
     <h1>分类：${category.name}</h1>
     <ul>
         <#list posts.content as post>

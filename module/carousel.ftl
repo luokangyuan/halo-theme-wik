@@ -4,21 +4,10 @@
     <a ><i class="fd-chevron bottom fa fa-chevron-down"></i></a>
   </div>
     <div class="carousel-item fd-carouse" href="#one!">
-      <img src="${theme_base!}/source/images/photo4.jpg">
+       <img src="${theme_base!}/source/images/photo4.jpg">
       <h2>${settings.index_title!}</h2>
       <p class="white-text">${settings.index_notice!}</p>
-      <div class="fd-contact-box">
-        <div ><a href="${settings.github!}" target="_blank"><i class="fa fa-github"></i></a></div>
-        <div ><a href="www.baodi.com" target="_blank"><i class="iconfont icon-xinlangweibo"></i></a></div>
-        <div ><a href="${settings.github!}" target="_blank"><i class="iconfont icon-weixin"></i></a></div>
-        <div ><a href="www.baodi.com" target="_blank"><i class="iconfont icon-QQ"></i></a></div>
-        <div ><a href="${settings.github!}" target="_blank"><i class="iconfont icon-twitter"></i></a></div>
-        <div ><a href="www.baodi.com" target="_blank"><i class="iconfont icon-shejiaotubiao-10"></i></a></div>
-        <div ><a href="${settings.github!}" target="_blank"><i class="iconfont icon-email-fill"></i></a></div>
-        <div ><a href="www.baodi.com" target="_blank"><i class="iconfont icon-WEBSITE"></i></a></div>
-        <div ><a href="${settings.github!}" target="_blank"><i class="iconfont icon-24gf-phoneLoudspeaker"></i></a></div>
-        <div ><a href="www.baodi.com" target="_blank"><i class="iconfont icon-YouTube"></i></a></div>
-      </div>
+      <#include "social.ftl">
     </div>
 </#if>
 <#if is_post??>
@@ -27,6 +16,14 @@
       <img src="${theme_base!}/source/images/photo4.jpg">
       <h2>${post.title!}</h2>
       <p class="white-text">${post.summary}</p>
+    </div>
+</#if>
+<#if is_categories??>
+   <div class="carousel carousel-slider center">
+    <div class="carousel-item fd-post-carousel-item" href="#one!">
+      <img src="${theme_base!}/source/images/photo4.jpg">
+      <h2>文章分类</h2>
+      <p class="white-text">文章分类描述</p>
     </div>
 </#if>
 <#if is_index??>

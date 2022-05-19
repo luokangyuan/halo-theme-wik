@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="${theme_base!}/source/css/indexTop.css">
     <link rel="stylesheet" href="${theme_base!}/source/css/indexPostList.css">
     <link rel="stylesheet" href="${theme_base!}/source/css/postDetail.css">
+    <link rel="stylesheet" href="${theme_base!}/source/css/categories.css">
      <link rel="stylesheet" href="${theme_base!}/source/plugins/prism/prism.css">
      <link rel="stylesheet" href="${theme_base!}/source/plugins/tocbot/tocbot.css">
 

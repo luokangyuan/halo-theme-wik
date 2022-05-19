@@ -1,5 +1,40 @@
 <#include "module/macro.ftl">
 <@layout title="分类列表 - ${blog_title!}">
+<#include "module/carousel.ftl">
+<div class="container">
+    <div class="row fd-category-row">
+         <div class="col s3 m3">
+            <div class="fd-catgories-card" >
+               <div class="fd-catgories-img">
+               </div>
+
+            </div>
+         </div>
+         <div class="col s3 m3">
+            <div class="fd-catgories-card" >
+               <div class="fd-catgories-img">
+               </div>
+
+            </div>
+         </div>
+         <div class="col s3 m3">
+            <div class="fd-catgories-card" >
+               <div class="fd-catgories-img">
+               </div>
+
+            </div>
+         </div>
+         <div class="col s3 m3">
+            <div class="fd-catgories-card" >
+               <div class="fd-catgories-img">
+               </div>
+
+            </div>
+         </div>
+    </div>
+</div>
+
+
     <h1>分类列表</h1>
     <ul>
         <@categoryTag method="list">

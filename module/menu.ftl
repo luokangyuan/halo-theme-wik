@@ -3,6 +3,9 @@
         ?sort_by('priority')：根据菜单的排序编号排序
     -->
     <div id="fd-top-nav" class="fd-top-nav">
+        <#if is_categories??>
+         <nav class="fd-nav-bg">
+        </#if>
         <nav>
             <div class="nav-wrapper">
                 <a href="#" class="brand-logo left"><i class="fa fa-tree"></i><span class="fd-logo-title">${blog_title!}</span></a>

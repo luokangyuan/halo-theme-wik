@@ -6,6 +6,13 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "29340474",
+      "name": "服务目录",
+      "font_class": "fuwumulu",
+      "unicode": "e672",
+      "unicode_decimal": 58994
+    },
+    {
       "icon_id": "7568878",
       "name": "24gf-phoneLoudspeaker",
       "font_class": "24gf-phoneLoudspeaker",
