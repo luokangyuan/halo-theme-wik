@@ -18,7 +18,7 @@
       <p class="white-text">${post.summary}</p>
     </div>
 </#if>
-<#if is_categories??>
+<#if is_categories?? || is_category??>
    <div class="carousel carousel-slider center">
     <div class="carousel-item fd-post-carousel-item" href="#one!">
       <img src="${theme_base!}/source/images/photo4.jpg">

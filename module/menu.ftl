@@ -3,7 +3,7 @@
         ?sort_by('priority')：根据菜单的排序编号排序
     -->
     <div id="fd-top-nav" class="fd-top-nav">
-        <#if is_categories??>
+        <#if is_categories?? || is_category??>
          <nav class="fd-nav-bg">
         </#if>
         <nav>
