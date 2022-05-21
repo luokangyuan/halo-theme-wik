@@ -48,6 +48,10 @@ body{
     padding-top: 0;
     background: linear-gradient(to right, #141e30, #243b55);
 }
+.fd-margin-bottom{
+    margin-bottom: 10px;
+}
+
 
 /* 自定义滚动条 */
 /* ::-webkit-scrollbar {

@@ -2,6 +2,13 @@
 genernal:
   label: 基本设置
   items:
+    access_key:
+      name: access_key
+      label: AccessKey <必填>
+      type: text
+      default: "wik"
+      placeholder: "请务必与后台中的Key一致"
+      description: "Access Key 用于页面中 Content API 的校验，不填会导致接口报错，默认为wik，但可以自己定义，请不要填写中文或特殊字符（请务必同时配置此处的 Access Key 和后台管理中的 Access Key，并保持一致）"
     index_title:
       name: index_title
       label: 首页标题

@@ -22,8 +22,14 @@
    <div class="carousel carousel-slider center">
     <div class="carousel-item fd-post-carousel-item" href="#one!">
       <img src="${theme_base!}/source/images/photo4.jpg">
-      <h2>文章分类</h2>
-      <p class="white-text">文章分类描述</p>
+      <#if is_category??>
+       <h2>${category.name}</h2>
+        <p class="white-text">${category.description}</p>
+      </#if>
+       <#if is_categories??>
+       <h2>文章分类</h2>
+        <p class="white-text">文章分类描述</p>
+      </#if>
     </div>
 </#if>
 <#if is_index??>

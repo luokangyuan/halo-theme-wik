@@ -1,5 +1,9 @@
 .fd-category-row{
     margin-top: -72px;
+    position: relative;
+    background: #fef6e4;
+    border-radius: 5px;
+    box-shadow: 0 15px 35px rgb(50 50 93 / 10%), 0 5px 15px rgb(0 0 0 / 7%);
 }
 .fd-catgories-card{
     position: relative;
@@ -58,4 +62,7 @@
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     z-index: 400;
     top: calc(100% - 60px);
+}
+.fd-charts-row{
+    margin-top: 10px;
 }
