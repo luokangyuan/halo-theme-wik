@@ -101,6 +101,102 @@
     animation: indexTransform 2s infinite;
     cursor: pointer;
 }
+/* 另外一种设计 */
+/* .fd-friend-card{
+    height: 254px;
+    width: 100%;
+    background: #F36A3E;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10px;
+}
+.fd-link-img{
+    width: 100%;
+    display: flex;
+    padding-left: 14px;
+    padding-top: 24px;
+}
+.fd-link-img img{
+    width: 38px;
+    height: 38px;
+    border-radius: 38px;
+
+}
+.fd-link-info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -35px;
+}
+.fd-link-info h2{
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1px;
+}
+.fd-descption{
+    padding: 10px;
+    margin-top: -10px;
+    height: 42px;
+    color: rgb(218, 212, 212);
+}
+
+.fd-link-social{
+    width: 100%;
+    height: 40px;
+    border-top: 1px solid rgba(160,160,160,0.2);
+    padding: 10px;;
+    display: flex;
+    justify-content: space-between;
+}
+.fd-link-social a span{
+    display: flex;
+    width: 40px;
+    height: 40px;
+   background: #F36A3E;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+}
+.fd-link-social a span i{
+    font-size: 20px;
+    color: #fff;
+}
+
+.fd-link-social a:hover span i{
+    animation: indexTransform 2s infinite;
+    cursor: pointer;
+} */
+
+
+
+.fd-link-0{
+    background: url("../images/1.png") center no-repeat;
+    background-size: 100% 100%;
+}
+.fd-link-1{
+    background: url("../images/1.png") center no-repeat;
+    background-size: 100% 100%;
+}
+.fd-link-2{
+    background: url("../images/2.png") center no-repeat;
+    background-size: 100% 100%;
+}
+.fd-link-3{
+    background: url("../images/3.png") center no-repeat;
+    background-size: 100% 100%;
+}
+.fd-link-4{
+    background: url("../images/4.png") center no-repeat;
+    background-size: 100% 100%;
+}
+.fd-link-5{
+    background: url("../images/5.png") center no-repeat;
+    background-size: 100% 100%;
+}
 @keyframes indexTransform {
     0%{
         transform: scale(1, 1);

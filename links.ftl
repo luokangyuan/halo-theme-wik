@@ -9,10 +9,32 @@
                 <h2>&nbsp;有朋自远方来</h2>
             </div>
         </div>
+
+        
         
          <@linkTag method="list">
             <#if links?? && links?size gt 0>
                 <#list links as link>
+                    <#--  <div class="col s4 m4 fd-link-box">
+                        <div class="fd-friend-card fd-link-${link.priority}">
+                            <div class="fd-link-img">
+                                <img src="${link.logo}">
+                            </div>
+                            <p>软件工程师</p>
+                            <div class="fd-link-info">
+                                <h2>${link.name}</h2>
+                                 <p class="fd-descption">${link.description}</p>
+                            </div>
+                             <div class="fd-link-social">
+                                <a><span><i class="iconfont icon-github1"></i></span></a>
+                                <a><span><i class="iconfont icon-jianshu"></i></span></a>
+                                <a><span><i class="iconfont icon-csdn"></i></span></a>
+                                 <a> <span><i class="iconfont icon-juejin"></i></span></a>
+                            </div>
+                        
+                        </div>
+                    </div>  -->
+                    
                      <div class="col s3 m3 fd-link-box">
                         <div class="fd-friend-card">
                             <div class="fd-wave-img">
