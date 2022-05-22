@@ -6,6 +6,34 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "3506933",
+      "name": "github",
+      "font_class": "github1",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "3778038",
+      "name": "简书",
+      "font_class": "jianshu",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "26267563",
+      "name": "csdn",
+      "font_class": "csdn",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "26283900",
+      "name": "掘金",
+      "font_class": "juejin",
+      "unicode": "e667",
+      "unicode_decimal": 58983
+    },
+    {
       "icon_id": "29340474",
       "name": "服务目录",
       "font_class": "fuwumulu",

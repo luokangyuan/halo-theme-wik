@@ -18,7 +18,7 @@
       <p class="white-text">${post.summary}</p>
     </div>
 </#if>
-<#if is_categories?? || is_category??>
+<#if is_categories?? || is_category?? || is_links??>
    <div class="carousel carousel-slider center">
     <div class="carousel-item fd-post-carousel-item" href="#one!">
       <img src="${theme_base!}/source/images/photo4.jpg">
@@ -27,8 +27,12 @@
         <p class="white-text">${category.description}</p>
       </#if>
        <#if is_categories??>
-       <h2>文章分类</h2>
-        <p class="white-text">文章分类描述</p>
+       <h2>${settings.index_title!}</h2>
+        <p class="white-text">${settings.index_notice!}</p>
+      </#if>
+      <#if is_links??>
+       <h2>${settings.index_title!}</h2>
+        <p class="white-text">${settings.index_notice!}</p>
       </#if>
     </div>
 </#if>

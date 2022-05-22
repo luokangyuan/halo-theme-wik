@@ -1,8 +1,8 @@
 @font-face {
   font-family: "iconfont"; /* Project id 3401650 */
-  src: url('iconfont.woff2?t=1652880232291') format('woff2'),
-       url('iconfont.woff?t=1652880232291') format('woff'),
-       url('iconfont.ttf?t=1652880232291') format('truetype');
+  src: url('iconfont.woff2?t=1653147080985') format('woff2'),
+       url('iconfont.woff?t=1653147080985') format('woff'),
+       url('iconfont.ttf?t=1653147080985') format('truetype');
 }
 
 .iconfont {
@@ -11,6 +11,22 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-github1:before {
+  content: "\e602";
+}
+
+.icon-jianshu:before {
+  content: "\e622";
+}
+
+.icon-csdn:before {
+  content: "\e60c";
+}
+
+.icon-juejin:before {
+  content: "\e667";
 }
 
 .icon-fuwumulu:before {
