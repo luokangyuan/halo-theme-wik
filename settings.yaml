@@ -24,6 +24,11 @@ genernal:
       label: 旅行
       type: text 
       default: '生活太匆碌，美景无心顾，来一场不一样的旅行吧。迎接你的或许是阳光温暖，清风徐徐，也不一定，感受才是灵魂的语言，文字只是表达感受的标点和符号'
+    about_title:
+      name: about_title           
+      label: 关于我
+      type: text 
+      default: '此生之路，我将走过；走过这一次，便再也无法重来。所有力所能及的善行，所有充盈于心的善意，我将毫不吝惜，即刻倾于。我将不再拖延，再不淡漠，只因此生之路，再也无法重来。'
 social:
   label: 社交网络
   items:

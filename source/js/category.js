@@ -3,6 +3,10 @@ $(document).ready(function () {
     var categoryName = [];
     var redaData = [];
     var redaIndicator = []
+
+    var tagName = [];
+    var word_array = [];
+
     Utils.request({
         url: "/api/content/categories",
         method: "GET"
@@ -42,6 +46,44 @@ $(document).ready(function () {
         }).catch((err) => {
             console.log(err)
         });
+
+        /** 词云图 */
+        Utils.request({
+            url: "/api/content/tags",
+            method: "GET"
+        })
+            .then((_res) => {
+                if (_res) {
+                    Promise.all(
+                        _res.map((item, index) => {
+                            tagName.push(item.name);
+                            return Utils.request({
+                                url: "/api/content/tags/" + item.slug + "/posts",
+                                method: "GET"
+                            })
+                        })
+                    ).then((_res) => {
+                        _res.forEach((tag, index) => {
+                           var wordItem = {}
+                           wordItem.text = tagName[index];
+                           wordItem.weight = tag.total;
+                           word_array.push(wordItem)
+                        })
+                        wordChat(word_array);
+                    
+                    }).catch((err) => {
+                        console.log(err)
+                    });
+    
+                }
+            }).catch((err) => {
+                console.log(err)
+            });
+    
+
+       
+
+       
 
 
     
@@ -132,4 +174,10 @@ function chartPie(pieData) {
         ]
     };
     myChart.setOption(option);
+}
+
+function wordChat(word_array) {
+    $(function() {
+    $("#fd-chart-word").jQCloud(word_array);
+    });
 }

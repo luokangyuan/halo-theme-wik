@@ -1,0 +1,151 @@
+.fd-about-img{
+    margin-top: -85px;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 120px;
+}
+.fd-about-left{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.fd-about-bradge{
+    display: flex;
+    margin-right: 10px;
+   
+}
+.fd-bradge-left{
+    background-color: #545454;
+    padding: 4px 9px;
+    font-size: 12px;
+    color: #fff;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.fd-bradge-right{
+    padding: 4px 9px;
+    font-size: 12px;
+    color: #fff;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.fd-post-num-color{
+    background-color: #128CC9;
+}
+.fd-category-num-color{
+    background-color: #19ADBD;
+}
+.fd-tag-num-color{
+    background-color: #37C017;
+}
+.fd-photo-num-color{
+    background-color: #CBAC14;
+}
+.fd-view-num-color{
+    background-color: #E96F32;
+}
+.fd-about-right{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fd-about-contact{
+    margin-left: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba( 255, 255, 255, 0.7 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.fd-about-contact div a i{
+    font-size: 20px;
+    color: #001858;
+}
+.fd-img-border{
+    background: #fff;
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.fd-about-img .fd-img-border img{
+    height: 110px;
+    object-fit: cover;
+    border-radius: 54px
+}
+.fd-name-info{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.fd-name-info h2{
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 0;
+}
+.fd-name-info .fd-about-p{
+    line-height: 0;
+    color: #777777;
+    font-size: 14px;
+}
+.fd-name-info .fd-about-desc{
+    margin-top: 40px;
+    word-break: break-word;
+    width: 72%;
+    line-height: 1.8;
+}
+.fd-chart-skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.fd-chart-skill h3{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 0;
+}
+.fd-skill-title{
+    width: 60px;
+    display: flex;
+    justify-content: flex-end;
+}
+.fd-skill-list{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.fd-skill-item{
+    display: flex;
+    height: 40px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.fd-skill-porcess{
+    background-color: #34495e;
+   
+    margin-left: 10px;
+    border-radius: 10px;
+    padding-left: 10px;
+    color: #fff;
+    font-size: 12px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+}

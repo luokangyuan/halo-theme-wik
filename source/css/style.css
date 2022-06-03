@@ -51,6 +51,11 @@ body{
 .fd-margin-bottom{
     margin-bottom: 10px;
 }
+.wik-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 /* 自定义滚动条 */

@@ -1,3 +1,4 @@
+  <link rel="stylesheet" href="${theme_base!}/source/plugins/jqcloud/jqcloud.css">
 <div class="container">
     <div class="row fd-category-row fd-charts-row">
          <div class="col s12 m12 mt-10 fd-title">
@@ -16,5 +17,28 @@
                
             </div>
         </div>
+
+        
     </div>
 </div>
+<div class="container">
+    <div class="row fd-category-row fd-charts-row">
+         <div class="col s12 m12 mt-10 fd-title">
+            <div class="fd-image-box fd-index-top">
+                <img data-aos="zoom-out-right" data-aos-easing="linear" data-aos-duration="1500" src="${theme_base!}/source/images/icon3.png">
+                <h2 data-aos="zoom-out-left" data-aos-easing="linear" data-aos-duration="1500">&nbsp;文章标签词云图</h2>
+            </div>
+        </div>
+
+         <div class="col s12 m12 fd-margin-bottom">
+            <div class="fd-charts-box" id="fd-chart-word" style="height:300px;">
+               
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+
+
+
+</script>
