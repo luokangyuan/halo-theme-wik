@@ -35,34 +35,26 @@
                 </div>
 
                 <div class="fd-about-right">
-                    <div class="fd-about-contact">
-                        <div ><a href="${settings.github!}" target="_blank"><i class="fa fa-github"></i></a></div>
+                     <div class="fd-about-bradge">
+                        <span class="fd-bradge-left"><i class="fa fa-eye"></i>&nbsp;浏览</span>
+                        <span class="fd-bradge-right fd-view-num-color">3.4K</span>
                     </div>
-                    <div class="fd-about-contact">
-                        <div ><a href="www.baodi.com" target="_blank"><i class="iconfont icon-xinlangweibo"></i></a></div>
+                     <div class="fd-about-bradge">
+                        <span class="fd-bradge-left"><i class="fa fa-image"></i>&nbsp;相册</span>
+                        <span class="fd-bradge-right fd-photo-num-color">15篇</span>
                     </div>
-                    <div class="fd-about-contact">
-                        <div ><a href="${settings.github!}" target="_blank"><i class="iconfont icon-weixin"></i></a></div>
+                     <div class="fd-about-bradge">
+                        <span class="fd-bradge-left"><i class="fa fa-tags"></i>&nbsp;标签</span>
+                        <span class="fd-bradge-right fd-tag-num-color">56个</span>
                     </div>
-                    <div class="fd-about-contact">
-                        <div ><a href="www.baodi.com" target="_blank"><i class="iconfont icon-QQ"></i></a></div>
+                    <div class="fd-about-bradge">
+                        <span class="fd-bradge-left"><i class="fa fa-bookmark"></i>&nbsp;专栏</span>
+                        <span class="fd-bradge-right fd-category-num-color">5个</span>
                     </div>
-                    <div class="fd-about-contact">
-                         <div ><a href="${settings.github!}" target="_blank"><i class="iconfont icon-twitter"></i></a></div>
+                    <div class="fd-about-bradge">
+                        <span class="fd-bradge-left"><i class="fa fa-fire"></i>&nbsp;文章</span>
+                        <span class="fd-bradge-right fd-post-num-color">15篇</span>
                     </div>
-                      <div class="fd-about-contact">
-                         <div ><a href="www.baodi.com" target="_blank"><i class="iconfont icon-shejiaotubiao-10"></i></a></div>
-                    </div>
-                      <div class="fd-about-contact">
-                         <div ><a href="${settings.github!}" target="_blank"><i class="iconfont icon-email-fill"></i></a></div>
-                    </div>
-                      <div class="fd-about-contact">
-                        <div ><a href="www.baodi.com" target="_blank"><i class="iconfont icon-WEBSITE"></i></a></div>
-                    </div>
-                      <div class="fd-about-contact">
-                         <div ><a href="${settings.github!}" target="_blank"><i class="iconfont icon-24gf-phoneLoudspeaker"></i></a></div>
-                    </div>
-
                 </div>
             </div>
             <div class="fd-name-info">
