@@ -9,39 +9,21 @@
                 <h2>&nbsp;有朋自远方来</h2>
             </div>
         </div>
-         <@linkTag method="list">
+
+        <@linkTag method="list">
             <#if links?? && links?size gt 0>
                 <#list links as link>
-                     <div class="col s4 m4 fd-link-box">
-                        <div class="fd-friend-card">
-                            <div class="fd-wave-img">
-                                <img src="${theme_base!}/source/images/linkbg.png">
+                    <div class="col s4 m4">
+                        <div class="fd-link-card fd-catgories-card fd-index-top-item-card ">
+                            <div class="fd-index-img">
+                                <img src="${theme_base!}/source/images/link0${(link_index+1)%5}.jpg">
                             </div>
-                            <div class="fd-link-logo">
-                                 <div class="fd-link-img">
-                                    <img src="${link.logo}">
-                                </div>
-                            </div>
-                            <div class="fd-link-info">
-                                 <h2>${link.name}</h2>
-                                 <#--  <p class="fd-work">软件工程师</p>  -->
-                                 <p class="fd-descption">${link.description}</p>
-                                  <div class="fd-link-social">
-                                    <a><span><i class="iconfont icon-github1"></i></span></a>
-                                     <a><span><i class="iconfont icon-jianshu"></i></span></a>
-                                     <a><span><i class="iconfont icon-csdn"></i></span></a>
-                                    <a> <span><i class="iconfont icon-juejin"></i></span></a>
-                                 </div>
-                                 <#--  <a href="${link.url}" target="_blank" rel="external"><span class="fd-link-botton">前往查看</a>  -->
-                                 <#--   -->
-                            </div>
-                             <div class="fd-bottom-wave-img ">
-                                <img src="${theme_base!}/source/images/wave1.png">
-                            </div>
-                            
+                            <h2>${link.name}</h2>
+                            <p>${link.description}</p>
+                            <a class="fd-top-botton fd-head-color" target="_blank" fd-head-color fd-re-botton"  href="${link.url!}">查看更多</a>
                         </div>
                     </div>
-                 </#list>
+                </#list>
             </#if>
         </@linkTag>
     </div>

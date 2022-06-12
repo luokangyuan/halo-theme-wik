@@ -28,7 +28,7 @@ genernal:
       name: about_title           
       label: 关于我
       type: text 
-      default: '此生之路，我将走过；走过这一次，便再也无法重来。所有力所能及的善行，所有充盈于心的善意，我将毫不吝惜，即刻倾于。我将不再拖延，再不淡漠，只因此生之路，再也无法重来。'
+      default: '我是一名"另类"软件工程师，不会修电脑，不会破解密码，没有格子衬衫，没有高薪。喜欢写写代码，看看书，没有想过改变世界， 只想着在有限的时间里做点有意义的事，帮助需要帮助的人，所有我力所能及的善行，所有充盈与心的善意，我都会毫不吝惜，即刻倾于，只因此生之路，再也无法重新走过。'
 social:
   label: 社交网络
   items:
@@ -56,3 +56,13 @@ social:
       type: text
       placeholder: "微博"
       description: "微博个人主页地址"
+ICP:
+  label: ICP备案设置
+  items:
+    icp:
+      name: icp
+      label: icp备案号
+      type: text
+      placeholder: "icp备案号"
+      default: ""
+      

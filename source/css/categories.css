@@ -21,6 +21,9 @@
     margin-bottom: 20px;
     
 }
+.fd-catgories-card .fd-index-img img{
+    height: 100%;
+}
 .fd-catgories-img{
     width: 100%;
     display: flex;

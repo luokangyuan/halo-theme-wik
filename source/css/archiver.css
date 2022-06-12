@@ -1,0 +1,38 @@
+.jazz-timeline .timeline-post .timeline-content{
+    padding: 0;
+    background: transparent;
+    border: 0px;
+}
+.jazz-timeline .timeline-post .timeline-content:after {
+    border: 14px solid transparent;
+    border-left-color: #fef6e4;
+    right: -28px;
+    top: 27px;
+}
+.jazz-timeline .timeline-post:nth-child(even) .timeline-content:after{
+    border: 14px solid transparent;
+    border-right-color: #fef6e4;
+    left: -28px;
+    right: auto;
+}
+.fd-archives-card{
+    height: 225px;
+}
+.fd-archives-card h2{
+    top: 10%;
+}
+.jazz-timeline .timeline-post .iconbg-0{
+    background: #28C0C6 !important;
+}
+.jazz-timeline .timeline-post .iconbg-1{
+    background: #2F3949 !important;
+}
+.jazz-timeline .timeline-post .iconbg-2{
+    background: #E46D2B !important;
+}
+.jazz-timeline .timeline-post .iconbg-3{
+    background: #3F51B5 !important;
+}
+.jazz-timeline .timeline-post .iconbg-4{
+    background: #9C27B0 !important;
+}
