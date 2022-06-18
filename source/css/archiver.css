@@ -5,13 +5,13 @@
 }
 .jazz-timeline .timeline-post .timeline-content:after {
     border: 14px solid transparent;
-    border-left-color: #fef6e4;
+    border-left-color: #FEFEFE;
     right: -28px;
     top: 27px;
 }
 .jazz-timeline .timeline-post:nth-child(even) .timeline-content:after{
     border: 14px solid transparent;
-    border-right-color: #fef6e4;
+    border-right-color: #FEFEFE;
     left: -28px;
     right: auto;
 }

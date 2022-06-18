@@ -10,6 +10,7 @@
 }
  .fd-index-top-item-card .fd-index-img{
     width: 100%;
+    height: inherit;
 }
 .fd-index-top-item-card .fd-index-img img{
     width: 100%;
