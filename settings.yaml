@@ -29,6 +29,18 @@ genernal:
       label: 关于我
       type: text 
       default: '我是一名"另类"软件工程师，不会修电脑，不会破解密码，没有格子衬衫，没有高薪。喜欢写写代码，看看书，没有想过改变世界， 只想着在有限的时间里做点有意义的事，帮助需要帮助的人，所有我力所能及的善行，所有充盈与心的善意，我都会毫不吝惜，即刻倾于，只因此生之路，再也无法重新走过。'
+    ribbon_value:
+      name: ribbon_value
+      label: 彩带背景
+      type: radio
+      data-type: bool
+      default: false
+      description: '是否开启彩带背景，默认为 false'
+      options:
+        - value: true
+          label: 开启
+        - value: false
+          label: 关闭
 social:
   label: 社交网络
   items:
@@ -65,4 +77,20 @@ ICP:
       type: text
       placeholder: "icp备案号"
       default: ""
+# plugin:
+#   label: 插件设置
+#   items:
+#     ribbon:
+#       name: ribbon
+#       label: 彩带背景
+#       type: radio
+#       data-type: bool
+#       default: false
+#       description: '是否开启彩带背景，默认为 false'
+#       options:
+#         - value: true
+#           label: 开启
+#         - value: false
+#           label: 关闭
+
       

@@ -2,7 +2,7 @@
 <div class="container">
     <div class="row">
         <#list posts.content as post>
-                <div class="col s4 m4">
+                <div class="col s4 m4 fd-card-hover">
                      <a href="${post.fullPath!}">
                     <div class="fd-post-card" data-aos="zoom-in" data-aos-duration="3000">
                         <div class="fd-index-img">

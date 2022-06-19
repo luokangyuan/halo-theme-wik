@@ -71,12 +71,6 @@
   <script type="text/javascript" src="${theme_base!}/source/plugins/jquery-3.5.1/jquery-3.5.1.min.js"></script>
   <script type="text/javascript" src="${theme_base!}/source/plugins/materialize/js/materialize.min.js"></script>
   <script>
- var instance = M.Carousel.init({
-    fullWidth: true,
-    indicators: true,
-    noWrap: true,
-  });
-
   // Or with jQuery
 
   $('.carousel.carousel-slider').carousel({

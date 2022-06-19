@@ -65,6 +65,14 @@
     margin-left: 8px;
     margin-top: 10px;
 }
+.fd-card-hover .fd-post-card .fd-index-img{
+    overflow: hidden;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.fd-card-hover:hover .fd-post-card .fd-index-img img{
+    animation: indexTransform 2s ease-in;
+}
 /* 
 .fd-post-card:hover {
     animation: indexTransform 2s infinite;

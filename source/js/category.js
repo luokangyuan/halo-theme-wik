@@ -30,7 +30,7 @@ $(document).ready(function () {
                             pieData.push(pieDataItem);
                             var redaItem = {};
                             redaItem.name = categoryName[index];
-                            redaItem.max = item.total + 1;
+                            redaItem.max = item.total + 4;
                             redaIndicator.push(redaItem);
                             redaData.push(item.total)
                         }
