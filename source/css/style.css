@@ -1,7 +1,13 @@
+@font-face {
+    font-family: Alibaba-PuHuiTi-Medium;
+    src: url("../font/Alibaba-PuHuiTi-Medium.ttf");
+}   
 body{
     background: #FEFEFE;
     color: #34495e;
+    font-family: Alibaba-PuHuiTi-Medium;
 }
+   
 .fd-head-color {
     color: #001858;
 }
@@ -56,24 +62,7 @@ body{
     justify-content: center;
     align-items: center;
 }
-
-
-/* 自定义滚动条 */
-/* ::-webkit-scrollbar {
-    width: 4px;
-  }
-  ::-webkit-scrollbar-thumb {
-    background-color: lightcoral;
-  }
-  ::-webkit-scrollbar-track {
-    background-color: lightsteelblue;
-  }
-  ::-webkit-scrollbar-thumb:horizontal {
-    background-color: lightsteelblue;
-  }
-  ::-webkit-scrollbar-track:horizontal {
-    background-color: lightsalmon;
-  }
-  ::-webkit-scrollbar-corner {
-    background-color: lightcoral;
-  } */
+.container {
+    width: 70%;
+    max-width: 1120px;
+}

@@ -71,11 +71,11 @@
             </div>
         </div>
         <div class="col s6 m6 fd-margin-bottom">
-            <div class="fd-charts-box fd-chart-skill" id="fd-chart-skill" style="height:340px;">
+            <div data-aos="fade-right" data-aos-duration="1000" class="fd-charts-box fd-chart-skill" id="fd-chart-skill" style="height:340px;">
             </div>
         </div>
         <div class="col s6 m6 fd-margin-bottom">
-            <div class="fd-charts-box fd-chart-read" id="fd-chart-read" style="height:340px;">
+            <div data-aos="fade-left" data-aos-duration="1000" class="fd-charts-box fd-chart-read" id="fd-chart-read" style="height:340px;">
             </div>
         </div>
         <div class="col s12 m12 mt-10 fd-title">
@@ -125,7 +125,7 @@
             </div>
         </div>
          <div class="col s12 m12 fd-margin-bottom">
-            <div class="fd-charts-box fd-chart-year" id="fd-chart-year" style="height:340px;">
+            <div data-aos="zoom-in" data-aos-duration="1000" class="fd-charts-box fd-chart-year" id="fd-chart-year" style="height:340px;">
             </div>
         </div>
 

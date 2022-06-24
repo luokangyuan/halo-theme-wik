@@ -1,6 +1,6 @@
 
 <div class="container fd-index-top-card">
-    <div class="row">
+    <div class="row fd-post-top-row">
         <div class="col s12 m12 mt-10 fd-title">
             <div class="fd-image-box fd-index-top">
                 <img data-aos="zoom-out-right" data-aos-easing="linear" data-aos-duration="1500" src="${theme_base!}/source/images/top.png">

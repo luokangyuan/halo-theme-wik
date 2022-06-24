@@ -28,13 +28,13 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, .6);
+    background-color: rgba(0, 0, 0, .5);
     z-index: 100;
 }
 .fd-index-top-item-card h2{
     color: #fff;
     position: absolute;
-    font-size: 1.8rem;
+    font-size: 20px;
     font-weight: 600;
     z-index: 300;
     background: transparent;
@@ -79,4 +79,7 @@
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     color: #fff;
+}
+.fd-post-top-row{
+    padding: 20px;
 }

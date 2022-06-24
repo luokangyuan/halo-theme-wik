@@ -12,12 +12,12 @@
                         <p class="fd-p-color">${post.summary}</p>
                         <div class="fd-view-box">
                             <span class="fd-view fd-head-color">
-                                <i class="fa fa-eye"></i>&nbsp;${post.visits?c}&nbsp;|
-                                <i class="fa fa-commenting"></i>&nbsp;${post.commentCount?c}&nbsp;|
+                                <i class="fa fa-eye"></i>&nbsp;${post.visits?c}&nbsp;
+                                <i class="fa fa-commenting"></i>&nbsp;${post.commentCount?c}&nbsp;
                                 <i class="fa fa-thumbs-up"></i>&nbsp;${post.likes?c}
                             </span>
                              <span class="fd-time fd-head-color">
-                                <i class="fa fa-hourglass"></i>&nbsp;${post.createTime?string('yyyy-MM-dd')}
+                                <i class="fa fa-calendar"></i>&nbsp;${post.createTime?string('yyyy-MM-dd')}
                             </span>
                         </div>
                         <div class="fd-post-tags">

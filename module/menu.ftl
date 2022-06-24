@@ -9,7 +9,7 @@
         <nav>
             <div class="nav-wrapper">
                 <a href="#" class="brand-logo left"><i class="fa fa-tree"></i><span class="fd-logo-title">${blog_title!}</span></a>
-                <ul  class="right">
+                <ul  class="right fd-menu">
                     <#list menus?sort_by('priority') as menu>
                         <li>
                             <a href="${menu.url}" target="${menu.target!}"><i class="fa ${menu.icon}"></i>&nbsp;${menu.name} </a>

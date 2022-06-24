@@ -45,6 +45,7 @@
 <script type="text/javascript" src="${theme_base!}/source/plugins/prism/prism.js"></script>
 <script type="text/javascript" src="${theme_base!}/source/plugins/echarts/echarts.min.js"></script>
 <script type="text/javascript" src="${theme_base!}/source/js/utils.js"></script>
+<script type="text/javascript" src="${theme_base!}/source/js/clicklove.js"></script>
 <script type="text/javascript" src="${theme_base!}/source/plugins/jqcloud/jqcloud-1.0.4.min.js"></script>
 <script type="text/javascript" size="150" alpha='0.3' zIndex="-2" src="${theme_base!}/source/plugins/ribbon/ribbon.min.js"></script>
 
